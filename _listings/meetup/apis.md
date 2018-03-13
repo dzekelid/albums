@@ -14,8 +14,8 @@ tags:
 - Meetups
 - Media
 - Events
-created: "2018-03-12"
-modified: "2018-03-12"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/albums/master/_listings/meetup/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -28,7 +28,7 @@ apis:
   tags: Albums
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/albums/master/_listings/meetup/2-photos-ws.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/albums/master/_listings/meetup/2-photo-album-post.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
