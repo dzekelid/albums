@@ -1,4 +1,5 @@
-title: Streamdata Gallery Albums
+title: Streamdata API Gallery - Albums
+description: A gallery of APIs to demonstrate what is possible when it comes to making data, content, and algorithms more real time, and event-driven as part of the API economy.
 url: albums.streamdata.gallery
 tag: Albums
 markdown: kramdown
