@@ -37,15 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/#123;user-id-#125;-albums-get.md
-- name: Facebook Post Me Albums
-  description: The photo albums created for a Group.
+- name: Facebook Get User Albums
+  description: User Albums
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0
   tags: Albums
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/me-albums-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/#123;user-id-#125;-albums-get.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
