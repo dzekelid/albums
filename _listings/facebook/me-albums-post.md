@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Facebook Graph (Achievement Type) API
-  description: API for managing Facebook Achievement Types
+  title: Facebook Post Me Albums
+  description: The photo albums created for a Group.
   termsOfService: https://www.facebook.com/policies/
   version: 1.0.0
 host: graph.facebook.com
