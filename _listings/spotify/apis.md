@@ -34,9 +34,9 @@ apis:
   tags: Albums
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/spotify/albums-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/spotify/albums-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/spotify/albums-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/spotify/albums-id-get-postman.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
