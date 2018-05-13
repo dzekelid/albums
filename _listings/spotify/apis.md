@@ -37,17 +37,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/spotify/artists-id-albums-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/spotify/artists-id-albums-get-postman.md
-- name: Spotify Get Album
-  description: '[Get an Album](https://developer.spotify.com/web-api/get-album/)'
+- name: Spotify Get Artist Albums
+  description: '[Get an Artist''s Albums](https://developer.spotify.com/web-api/get-artists-albums/)'
   image: http://spotifypresscom.files.wordpress.com/2013/01/spotify-logo-primary-vertical-light-background-rgb.jpg
   humanURL: http://www.spotify.com
   baseURL: https://api.spotify.com//v1
   tags: Albums
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/spotify/albums-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/spotify/artists-id-albums-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/spotify/albums-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/spotify/artists-id-albums-get-postman.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
