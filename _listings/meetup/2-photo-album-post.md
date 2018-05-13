@@ -23,11 +23,11 @@ paths:
       operationId: photos
       parameters:
       - in: query
-        name: '*group_id'
+        name: group_id
         description: Group to create the album in
         type: string
       - in: query
-        name: '*title'
+        name: title
         description: ' Title of the new album'
         type: string
       responses:
