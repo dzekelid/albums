@@ -22,9 +22,9 @@ tags:
 - Issues
 - Indie EdTech Data Jam
 - Facebook Stack
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/albums/master/_listings/facebook/apis.yaml
+created: "2018-05-12"
+modified: "2018-05-12"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Facebook
@@ -32,11 +32,11 @@ apis:
     to connect with friends and family as well as make new connections
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
   humanURL: ""
-  baseURL: https://graph.facebook.com/v2.9/
+  baseURL: https://graph.facebook.com//v3.0
   tags: Albums
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/albums/master/_listings/facebook/me-albums-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/#123;group-id-#125;-albums-get.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
