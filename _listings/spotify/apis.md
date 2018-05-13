@@ -20,9 +20,9 @@ tags:
 - Indie EdTech Data Jam
 - Change Log Example
 - Change Log
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/albums/master/_listings/spotify/apis.yaml
+created: "2018-05-12"
+modified: "2018-05-12"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/spotify/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Spotify
@@ -34,7 +34,9 @@ apis:
   tags: Albums
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/albums/master/_listings/spotify/artists-id-albums-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/spotify/albums-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/spotify/albums-get-postman.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
