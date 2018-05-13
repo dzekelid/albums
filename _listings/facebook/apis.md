@@ -36,7 +36,7 @@ apis:
   tags: Albums
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/#123;group-id-#125;-albums-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/me-albums-post.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
