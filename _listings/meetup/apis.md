@@ -1,5 +1,6 @@
 ---
 name: Meetup
+x-slug: meetup
 description: Meetup is an online social networking portal that facilitates offline
   group meetings in various localities around the world. Meetup allows members to
   find and join groups unified by a common interest, such as politics, books, games,
@@ -7,29 +8,24 @@ description: Meetup is an online social networking portal that facilitates offli
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
 x-kinRank: "9"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- My API Stack
-- Meetups
-- Media
-- Events
-created: "2018-05-12"
-modified: "2018-05-12"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/meetup/apis.yaml
+tags: Albums
+created: "2018-05-20"
+modified: "2018-05-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/meetup/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Meetup
-  description: Meetup is an online social networking portal that facilitates offline
-    group meetings in various localities around the world
+- name: Meetup Photo Album2
+  x-api-slug: meetup
+  description: This method creates photo albums within a Meetup group
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
-  humanURL: ""
-  baseURL: https://api.meetup.com//
-  tags: Albums
+  humanURL: http://www.meetup.com/
+  baseURL: https://api.meetup.com////2/photo_album
+  tags: Events,Photos,Albums
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/meetup/2-photos-ws.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/meetup/2photo-album-post-openapi.md
 - name: Meetup WebSocket Photo Stream
+  x-api-slug: meetup
   description: |-
     For browsers that support it, [WebSockets](http://dev.w3.org/html5/websockets/) is a more
     efficient alternative to the long-polling stream. This is a **push only** endpoint and will discard
@@ -39,30 +35,25 @@ apis:
     through the [must.js](https://github.com/meetup/must.js#readme) client, which can fallback to long-polling.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
+  baseURL: https://api.meetup.com////2/photos
+  tags: Events,Photos,Albums
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/meetup/2photos-ws-openapi.md
+- name: Meetup
+  x-api-slug: meetup
+  description: Meetup is an online social networking portal that facilitates offline
+    group meetings in various localities around the world. Meetup allows members to
+    find and join groups unified by a common interest, such as politics, books, games,
+    movies, health, pets, careers or hobbies.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
+  humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Albums
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/meetup/2-photos-ws.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/meetup/openapi.md
 x-common:
-- type: x-base
-  url: http://api.meetup.com
-- type: x-developer
-  url: http://www.meetup.com/meetup_api/
-- type: x-github
-  url: https://github.com/meetup
-- type: x-pricing
-  url: http://www.meetup.com/pricing/
-- type: x-privacy
-  url: http://www.meetup.com/privacy/
-- type: x-support
-  url: http://www.meetup.com/help/
-- type: x-terms-of-service
-  url: http://www.meetup.com/terms/
-- type: x-twitter
-  url: https://twitter.com/MeetupAPI
-- type: x-website
-  url: http://www.meetup.com/
 - type: x-base
   url: http://api.meetup.com
 - type: x-developer
