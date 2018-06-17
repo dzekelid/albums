@@ -1,60 +1,72 @@
 ---
 name: Facebook
 x-slug: facebook
-description: Facebook is an online social networking service that allows its users
-  to connect with friends and family as well as make new connections. It provides
-  its users with the ability to create a profile, update information, add images,
-  send friend requests, and accept requests from other users. Its features include
-  status update, photo tagging and sharing, and more.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+description: Create an account or log into Facebook. Connect with friends, family
+  and other people you know. Share photos and videos, send messages and get updates.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "3"
 tags: Albums
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Facebook Get Group Albums
+- name: Facebook Get Application Albums
   x-api-slug: facebook
-  description: The photo albums created for a Group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
-  humanURL: https://facebook.com
-  baseURL: https://graph.facebook.com//v3.0//&#123;group-id&#125;/albums
-  tags: Group,Albums
+  description: The photo albums this application has created.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com////{application}/albums
+  tags: Application,Albums
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/applicationalbums-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/123groupid125albums-get-openapi.md
-- name: Facebook Post Me Albums
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/applicationalbums-get-openapi.md
+- name: Facebook Get Page Albums
   x-api-slug: facebook
-  description: The photo albums created for a Group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
-  humanURL: https://facebook.com
-  baseURL: https://graph.facebook.com//v3.0//me/albums
-  tags: Me,Albums
+  description: The photo albums this Page has uploaded
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com////{page}/albums
+  tags: Page,Albums
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/pagealbums-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/mealbums-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/pagealbums-get-openapi.md
 - name: Facebook Get User Albums
   x-api-slug: facebook
-  description: User Albums
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
-  humanURL: https://facebook.com
-  baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/albums
+  description: The photo albums this user has created
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com////{user}/albums
   tags: User,Albums
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/useralbums-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/123userid125albums-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/useralbums-get-openapi.md
+- name: Facebook Post User Albums
+  x-api-slug: facebook
+  description: Creates an album for the user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com////{user}/albums
+  tags: User,Albums
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/useralbums-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/facebook/useralbums-post-openapi.md
 - name: Facebook
   x-api-slug: facebook
-  description: Facebook is an online social networking service that allows its users
-    to connect with friends and family as well as make new connections. It provides
-    its users with the ability to create a profile, update information, add images,
-    send friend requests, and accept requests from other users. Its features include
-    status update, photo tagging and sharing, and more.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
-  humanURL: https://facebook.com
-  baseURL: https://graph.facebook.com//v3.0
+  description: Create an account or log into Facebook. Connect with friends, family
+    and other people you know. Share photos and videos, send messages and get updates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com//
   tags: Albums
   properties:
   - type: x-openapi-spec
@@ -76,6 +88,8 @@ x-common:
   url: https://www.facebook.com/business/news/rss/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/facebook
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/facebook
 - type: x-developer
   url: https://developers.facebook.com/
 - type: x-forum
@@ -108,6 +122,10 @@ x-common:
   url: https://www.facebook.com/about/government_requests
 - type: x-twitter
   url: https://twitter.com/facebook
+- type: x-website
+  url: http:///business
+- type: x-website
+  url: http://facebook.com
 - type: x-website
   url: https://facebook.com
 include: []

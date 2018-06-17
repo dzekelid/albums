@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 x-collection-name: Facebook
-x-complete: 1
+x-complete: 0
 info:
-  title: Facebook
-  description: connect-to-the-social-network-with-the-graph-api-
+  title: Facebook Get User Albums
+  description: The photo albums this user has created
   version: 1.0.0
 host: graph.facebook.com
 basePath: /
@@ -63,28 +63,17 @@ paths:
       tags:
       - User
       - Albums
-    post:
-      summary: Post User Albums
-      description: Creates an album for the user
-      operationId: postUserAlbums
-      x-api-path-slug: useralbums-post
-      parameters:
-      - in: query
-        name: message
-        description: Album description
-      - in: query
-        name: name
-        description: Album name
-      - in: query
-        name: privacy
-        description: Privacy settings for the Album
-      - in: path
-        name: user
-        description: Represents the ID of the user object
-      responses:
-        200:
-          description: OK
-      tags:
-      - User
-      - Albums
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
