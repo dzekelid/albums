@@ -82,4 +82,30 @@ paths:
       - Music
       - Artists
       - Albums
+  /albums/{id}/tracks:
+    get:
+      summary: Get Album Tracks
+      description: '[Get an Album''s Tracks](https://developer.spotify.com/web-api/get-albums-tracks/)'
+      operationId: get-an-albums-trackshttpsdeveloperspotifycomwebapigetalbumstracks
+      x-api-path-slug: albumsidtracks-get
+      parameters:
+      - in: path
+        name: id
+        description: The Spotify ID for the album
+      - in: query
+        name: limit
+        description: The maximum number of items to return
+      - in: query
+        name: market
+        description: The market (an ISO 3166-1 alpha-2 country code)
+      - in: query
+        name: offset
+        description: The index of the first item to return
+      responses:
+        200:
+          description: OK
+      tags:
+      - Music
+      - Album
+      - Tracks
 ---
