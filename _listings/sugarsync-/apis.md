@@ -14,9 +14,10 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/sugarsync-/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Sugar Sync  API
-  x-api-slug: sugar-sync--api
-  description: the-sugarsync-service-presents-a-set-of-resources-that-your-application-can-access-through-the-platform-api--
+- name: Sugar Sync  API - Retrieving Album Information
+  x-api-slug: album-get
+  description: To retrieve information about an album, an application submits an HTTP
+    GET request to then          album resource that represents the album.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/488-sugarsync-.jpg
   humanURL: http://sugarsync.com
   baseURL: https://api.sugarsync.com//
@@ -28,9 +29,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/sugarsync-/album-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/sugarsync-/album-get-openapi.md
-- name: Sugar Sync  API
-  x-api-slug: sugar-sync--api
-  description: the-sugarsync-service-presents-a-set-of-resources-that-your-application-can-access-through-the-platform-api--
+- name: Sugar Sync  API - Retrieving Album Information
+  x-api-slug: album-get
+  description: To retrieve information about an album, an application submits an HTTP
+    GET request to then          album resource that represents the album.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/488-sugarsync-.jpg
   humanURL: http://sugarsync.com
   baseURL: https://api.sugarsync.com//
@@ -42,32 +44,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/sugarsync-/album-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/sugarsync-/album-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/sugarsync-/album-get-openapi.md
-- name: Sugar Sync  API
-  x-api-slug: sugar-sync--api
-  description: SugarSync is a cloud file sharing, file sync and online backup service
-    that is simple, powerful and easy to use. Unlike Dropbox, SugarSync enables you
-    to back up your existing folder structure. Try it for FREE for 30 days and get
-    started today!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/488-sugarsync-.jpg
-  humanURL: http://sugarsync.com
-  baseURL: https://api.sugarsync.com//
-  tags: Albums
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/sugarsync-/openapi.md
-- name: SugarSync  API
-  x-api-slug: sugarsync--api
-  description: The SugarSync service presents a set of resources that your application
-    can access through the Platform API.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/488-sugarsync-.jpg
-  humanURL: http://sugarsync.com
-  baseURL: https://api.sugarsync.com//
-  tags: Albums
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/albums/master/_listings/sugarsync-/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://stripe.api.gallery.streamdata.io
